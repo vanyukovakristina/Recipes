@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="keywords"
+          content="рецепты,готовь и делись рецептами, кулинарные книги,любимые рецепты, любимые рецепты в одном месте, простые блюда, детские блюда, блюда от шеф-поваров, на праздник, RECIPES">
+    <title>Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Mulish&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+
+</head>
+<body>
+<header>
+    <div class="nav">
+        <img class="logo" src="/img/Recipes.png" alt>
+        <nav>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a>Главная</a></li>
+                <li class="nav-menu-item"><a>Рецепты</a></li>
+                <li class="nav-menu-item"><a>Избранное</a></li>
+            </ul>
+        </nav>
+        <div class="btn-group">
+            <a class="btn-group-PA" type="button" href=""><img src="/img/login.svg" alt=""></a>
+            <a class="btn-group-login" type="button" href="">Войти</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-text">
+            <h1 class="content-text-h1">Готовь и делись<br> рецептами</h1>
+            <p class="content-text-p">Никаких кулинарных книг и блокнотов! Храни все<br> любимые рецепты в одном месте.
+            </p>
+        </div>
+        <div class="content-btns">
+            <a class="btn-rec" href="">+ Добавить рецепт</a>
+            <a class="btn-login" href="">Войти</a>
+        </div>
+        <div class="img-main">
+            <img src="/img/main.png" alt="">
+        </div>
+    </div>
+</header>
+<main>
+    <div class="section">
+        <div class="hedline">
+            <h2 class="hedline-h2">Умная сортировка по тегам</h2>
+            <p class="hedline-p">Добавляй рецепты и указывай наиболее популярные теги. Это позволит<br> быстро находить
+                любые категории.</p>
+        </div>
+        <div class="card">
+            <div class="category">
+                <div class="icon">
+                    <img class="card-category-ic-1" src="/img/ic-1.svg" alt="">
+                </div>
+                <p class="p-simple_dishes">Простые блюда</p>
+                <p class="dishes">Время приготвления<br> таких блюд не более 1<br> часа</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">
+                    <img class="card-category-ic-2" src="/img/ic-2.svg" alt="">
+                </div>
+                <p class="baby">Детское</p>
+                <p class="dishes">Самые полезные блюда<br> которые можно детям<br> любого возраста</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">
+                    <img class="card-category-ic-3" src="/img/ic-3.svg" alt="">
+                </div>
+                <p class="chef">От шеф-поваров</p>
+                <p class="dishes">Требуют умения,<br> времени и терпения,<br> зато как в ресторане</p>
+            </div>
+
+            <div class="category">
+                <div class="icon">
+                    <img class="card-category-ic-4" src="/img/ic-4.svg" alt="">
+                </div>
+                <p class="holiday">На праздник</p>
+                <p class="dishes">Чем удивить гостей,<br> чтобы все были сыты за<br> праздничным столом</p>
+            </div>
+        </div>
+    </div>
+    <div class="section03">
+        <div class="section03-content">
+            <div class="section03-img">
+                <img class="section03-img-soup" src="/img/soup.png" alt="">
+            </div>
+            <div class="section03-content-icons">
+                <div class="section03-icons">
+                    <div class="post">
+                        <img src="/img/like.svg" alt="like" class="like">
+                        <p class="click-like" id="number-click"></p>
+                    </div>
+
+                    <a href=""><img src="/img/timer.svg" alt="" class="time" weight="30" height="30"></a>
+                    <p class="number-time">35 минут</p>
+                </div>
+
+                <h2 class="section03-content-h2">Тыквенный супчик<br> на кокосовом молоке</h2>
+                <p class="section03-content-p">Если у вас осталась тыква, и вы не знаете что с ней<br> сделать, то это
+                    решение для вас! Ароматный,<br> согревающий суп-пюре на кокосовом молоке. Можно даже в Пост! </p>
+            </div>
+        </div>
+        <div class="section03-content-group">
+            <p class="section03-content-text">@glazest</p>
+        </div>
+    </div>
+    <div class="section06">
+        <div class="section06-content">
+            <h2 class="section06-content-h2">Поиск рецептов</h2>
+            <p class="section06-content-p">Введите примерное название блюда, а мы по тегам найдем его</p>
+        </div>
+        <div class="form">
+            <form action="#">
+                <input type="text" class="input-dishes" placeholder="Название блюда">
+            </form>
+            <a class="btn-search" href="">Поиск</a>
+        </div>
+        <div class="text-dishes">
+            <p>Мясо Деликатесы Пироги Рыба</p>
+        </div>
+
+    </div>
+</main>
+<footer>
+
+    <div class="footer-recipes">
+        <p class="footer-logo-text">Recipes</p>
+    </div>
+    <div class="footer-recipes-text">
+        <p class="footer-text">© Recipes 2021</p>
+    </div>
+
+</footer>
+<script src="JS/main.js"></script>
+</body>
+</html>
