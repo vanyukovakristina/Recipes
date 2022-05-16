@@ -108,7 +108,7 @@ main {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 72px;
+    font-size: 64px;
     line-height: 88px;
 
     color: #25292D;
@@ -180,6 +180,8 @@ main {
     z-index: 1;
     right: 0;
     top: 0;
+    Width:602px;
+    Height: 800px;
 }
 
 .hedline {
@@ -215,11 +217,12 @@ main {
 }
 
 .category {
-    padding-right: 30px;
+   padding-top: 20px;
+    padding-left: 24px;
     margin-left: 30px;
     justify-content: flex-start;
     background: #FFFFFF;
-    box-shadow: 0px 16px 72px rgba(34, 39, 47, 0.05);
+    box-shadow: 0px 278px 271px rgba(34, 39, 47, 0.05);
     border-radius: 24px;
 }
 
@@ -294,6 +297,10 @@ main {
     display: flex;
     margin-top: 100px;
 }
+.section03-img{
+    Width: 543px;
+    Height: 543px;
+}
 .section03-content-icons{
     margin-left: 73px;
 }
@@ -307,13 +314,15 @@ main {
 }
 
 .like {
-    margin-left: 90px;
+    margin-left: 270px;
     display: flex;
     weight: 30px;
     height: 30px;
 }
 
-
+.section03-icons-time{
+    display: flex;
+}
 .time {
     margin-left: 30px;
 }
@@ -321,9 +330,11 @@ main {
 .number-time {
     margin-left: 10px;
 }
-
+.number-time-text{
+    margin-left: 10px;
+}
 .section03-content-h2 {
-    margin-top: 178px;
+    margin-top: 110px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -347,7 +358,7 @@ main {
 
 .section03-content-group {
     position: absolute;
-    bottom: 28px;
+    bottom: 55px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -359,6 +370,7 @@ main {
     weight: 118px;
     height: 32px;
     border-color: #FFFFFF;
+    border-radius:0 7px 7px 0px;
     background: #FFFFFF;
 }
 .section03-content-text{
@@ -391,7 +403,7 @@ main {
 }
 
 .section06-content-p {
-    margin-top: 8px;
+    margin-top: 16px;
     margin-left: 92px;
     margin-right: 92px;
     font-family: 'Mulish';
@@ -469,6 +481,6 @@ footer {
     font-size: 20px;
     color: #4A525A;
     margin-top: 15px;
-    margin-left: 1200px;
+    margin-left: 810px;
 }
 
