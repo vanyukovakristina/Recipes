@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="рецепты,готовь и делись рецептами, кулинарные книги,любимые рецепты, любимые рецепты в одном месте, простые блюда, детские блюда, блюда от шеф-поваров, на праздник, RECIPES">
+    <meta name="keywords"
+          content="рецепты,готовь и делись рецептами, кулинарные книги,любимые рецепты, любимые рецепты в одном месте, простые блюда, детские блюда, блюда от шеф-поваров, на праздник, RECIPES">
     <title>Recipes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Mulish&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="main.js">
@@ -25,8 +27,8 @@
             </ul>
         </nav>
         <div class="btn-group">
-            <a class="btn-group-PA" type="button" href=""><img src="/img/login.svg" alt=""></a>
-            <a class="btn-group-login" type="button" href="">Войти</a>
+            <a class="btn-group-PA"  href=""><img src="/img/login.svg" alt=""></a>
+            <a class="btn-group-login"  href="">Войти</a>
         </div>
     </div>
     <div class="content">
@@ -98,7 +100,7 @@
                     </div>
 
                     <div class="section03-icons-time">
-                        <a href=""><img src="/img/timer.svg" alt="" class="time" weight="30" height="30"></a>
+                        <a href=""><img src="/img/timer.svg" alt="" class="time"></a>
                         <p class="number-time">35</p>
                         <p class="number-time-text">минут</p>
                     </div>
@@ -136,8 +138,79 @@
     <div class="footer-recipes-text">
         <p class="footer-text">© Recipes 2021</p>
     </div>
-
 </footer>
-<script src="JS/main.js"></script>
+<div class="log-in-profile">
+    <div class="profile-exit">
+        <a href="#" class="profile-exit-pop">&#10006</a>
+    </div>
+    <div class="log-in-profile-text-h">
+        <h2 class="log-in-profile-h">Войдите в профиль</h2>
+    </div>
+    <div class="log-in-profile-text-p">
+        <p class="log-in-profile-p">Добавлять рецепты могут только зарегистрированные<br> пользователи.</p>
+    </div>
+    <div class="log-in-profile-botton">
+        <a class="botton-login" href="">Войти</a>
+        <a class="botton-registration" href="">Регистрация</a>
+    </div>
+
+</div>
+<div class="registration">
+    <div class="profile-exit">
+        <a href="#" class="profile-exit-pop">&#10006</a>
+    </div>
+    <div class="log-in-profile-text-h">
+        <h2 class="log-in-profile-h">Регистрация</h2>
+    </div>
+    <form action="#" class="form-registration">
+        <div class="form-input-name">
+            <input type="text" class="input-name" placeholder="Имя">
+        </div>
+        <div class="form-input-login">
+            <input type="text" class="input-login" placeholder="Логин">
+        </div>
+        <div class="form-input-password">
+            <div class="input-password">
+                <input type="password" class="password" placeholder="Пароль">
+                <p class="form-input-password-text">Минимум 8 символов</p>
+            </div>
+            <div class="input-repeat-password">
+                <input type="password" class="repeat-password" placeholder="Повторите пароль">
+            </div>
+        </div>
+        <div class="log-in-profile-botton">
+            <a class="log-in-profile-registration" href="">Зарегистрироваться</a>
+            <a class="log-in-profile-cancellation" href="">Отмена</a>
+        </div>
+    </form>
+    <div class="log-in-profile-a-text">
+        <a href="" class="log-in-profile-account">У меня уже есть аккаунт</a>
+    </div>
+</div>
+<div class="enter">
+    <div class="profile-exit">
+        <a href="#" class="profile-exit-pop">&#10006</a>
+    </div>
+    <div class="log-in-profile-text-h">
+        <h2 class="log-in-profile-h">Войти</h2>
+    </div>
+    <form action="#" class="form-enter">
+        <div class="form-input-login">
+            <input type="text" class="input-login" placeholder="Логин">
+        </div>
+        <div class="form-enter-password">
+            <input type="password" class="enter-password" placeholder="Пароль">
+        </div>
+        <div class="log-in-profile-botton">
+            <a class="log-in-profile-registration" href="">Войти</a>
+            <a class="log-in-profile-cancellation" href="">Отмена</a>
+        </div>
+
+    </form>
+    <div class="enter-a-text">
+        <a href="" class="enter-a-text-account">У меня ещё нет аккаунта</a>
+    </div>
+</div>
+<script src="js/main.js"></script>
 </body>
 </html>
